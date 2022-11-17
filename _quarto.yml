@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "geomclass"
+  author: "Jane Doe"
+  date: "11/16/2022"
+  chapters:
+    - index.qmd
+    - part: chapter1.qmd
+      chapters:
+        - Pairs of Lines and Angle.qmd
+      
+      
+        - intro.qmd
+        - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
